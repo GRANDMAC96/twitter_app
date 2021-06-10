@@ -2,10 +2,17 @@ import React from "react";
 import Header from "./Header";
 import AddTweetForm from "./AddTweetForm";
 import TweetDashboard from "./TweetDashboard";
+import sample from "../sample";
 
 class App extends React.Component {
   state = {
     tweets: {}
+  };
+
+  loadSampleTweets = () => {
+    this.setState({
+      tweets: sample
+    })
   };
 
   addTweet = tweet => {
@@ -30,7 +37,11 @@ class App extends React.Component {
       <div>
         <Header />
         <AddTweetForm addTweet={this.addTweet} />
-        <TweetDashboard />
+        <TweetDashboard
+          loadSampleTweets={this.loadSampleTweets}
+          tweets={this.state.tweets}
+        />
+
       </div>
     );
   }
