@@ -1,5 +1,5 @@
-const tweets = {
-    ftweet: {
+const sample = {
+    tweet1: {
         tweet: "Oh Donald"
     },
 
@@ -36,4 +36,4 @@ const tweets = {
     }
 };
 
-export default tweets;
+export default sample;
