@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import AddTweetForm from "./AddTweetForm";
+import TweetDashboard from "./TweetDashboard";
 
 class App extends React.Component {
   state = {
@@ -29,6 +30,7 @@ class App extends React.Component {
       <div>
         <Header />
         <AddTweetForm addTweet={this.addTweet} />
+        <TweetDashboard />
       </div>
     );
   }
