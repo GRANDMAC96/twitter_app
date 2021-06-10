@@ -1,37 +1,37 @@
 const tweets = {
-    fish1: {
+    ftweet: {
         tweet: "Oh Donald"
     },
 
-    fish2: {
+    tweet2: {
         tweet: "Yolo"
     },
 
-    fish3: {
+    tweet3: {
         tweet: "Nothing to see here"
     },
 
-    fish4: {
+    tweet4: {
         tweet: "Tweet tweet"
     },
 
-    fish5: {
+    tweet5: {
         tweet: "Funk the beat"
     },
 
-    fish6: {
+    tweet6: {
         tweet: "Hold your breath"
     },
 
-    fish7: {
+    tweet7: {
         tweet: "Why you do this"
     },
 
-    fish8: {
+    tweet8: {
         tweet: "Ha ha ha ha ha"
     },
 
-    fish9: {
+    tweet9: {
         tweet: "You'll never walk alone"
     }
 };
