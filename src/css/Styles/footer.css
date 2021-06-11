@@ -1,0 +1,19 @@
+.footer-img {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.footer-img a {
+        display: inline-block;
+        width: 2rem; height: 2rem;
+        padding: 1rem;
+        border-radius: 50%;
+        background-color: pink;
+        text-decoration: none;
+    }
+.footer-img a img {
+        width: 100%; height: 100%;
+        object-fit: contain;
+        display: inline-block;
+        margin: 0; padding: 0;
+    }

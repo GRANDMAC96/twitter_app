@@ -1,0 +1,26 @@
+body {
+    font-family: myNunito;
+}
+.h1 {
+    font-family: myPacifico;
+    padding: 1rem;
+    flex-grow: 1;
+}
+.h2 {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF0E9;
+    padding: 3rem;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+ul {
+    color:blue;
+}
+.posted {
+    border: blue;
+}
+.p {
+    text-align: center;
+}
+

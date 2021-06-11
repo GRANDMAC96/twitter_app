@@ -1,0 +1,38 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 1rem;
+}
+.hero-image {
+    height: auto;
+}
+img {
+    /* width: 100px; */
+    /* height: 100px; */
+    object-fit: cover;
+}
+.penguin {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.jellies {
+    grid-column: 2/3;
+    grid-row: 1/2; 
+}
+.zebra {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+.bird {
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+.snake {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.elephants {
+    grid-column: 1/2;
+    grid-row: 5/7;
+}
