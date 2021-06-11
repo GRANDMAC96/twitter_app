@@ -11,7 +11,7 @@ class AddTweetForm extends React.Component {
         e.preventDefault();
         console.log(this.tweetRef.current.value);
         const tweet = {
-            text: this.tweetRef.current.value,
+            tweet: this.tweetRef.current.value,
         }
         this.props.addTweet(tweet);
         // Finally refresh the page
