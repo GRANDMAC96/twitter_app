@@ -1,0 +1,12 @@
+@font-face {
+    font-family: myNunito;
+    src: url("../Fonts/Nunito-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: myPacifico;
+    src: url("../Fonts/Pacifico-Regular.ttf") format("truetype");
+}
+:root {
+    --salmon: #FF6A7C;
+    font-size: 1.4rem;
+}
