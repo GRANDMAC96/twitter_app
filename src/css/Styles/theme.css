@@ -1,15 +1,13 @@
 body {
-    height: 100%;
-    width: 95vw;
-    padding: 30px;
-    margin: 0.5rem;
+    background:grey;
+    margin: 1rem;
+    font-family: DoHyeon;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-article { 
-    height: 100%;
-    width: 90vw;
-    padding: 0.5rem;
-    margin: 0.5rem;
-}
-@media screen {
 
+@font-face {
+    font-family: 'DoHyeon';
+    font-weight: normal;
+    src: url("./fonts/DoHyeon-Regular.ttf");
 }
