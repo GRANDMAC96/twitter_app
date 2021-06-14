@@ -1,10 +1,7 @@
 @font-face {
-    font-family: myNunito;
-    src: url("../Fonts/Nunito-Light.ttf") format("truetype");
-}
-@font-face {
-    font-family: myPacifico;
-    src: url("../Fonts/Pacifico-Regular.ttf") format("truetype");
+    font-family: 'DoHyeon';
+    font-weight: normal;
+    src: url("./fonts/DoHyeon-Regular.ttf");
 }
 :root {
     --salmon: #FF6A7C;
