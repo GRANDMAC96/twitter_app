@@ -34,15 +34,28 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <Header />
-        <AddTweetForm addTweet={this.addTweet} />
-        <TweetDashboard
-          loadSampleTweets={this.loadSampleTweets}
-          tweets={this.state.tweets}
-        />
+      <>
+        <div className="row">
+          <Header />
+        </div>
+        <div className="row">
+          <div className="col-3">
 
-      </div>
+          </div>
+          <div className="col-6">
+            <AddTweetForm addTweet={this.addTweet} />
+            <TweetDashboard
+              loadSampleTweets={this.loadSampleTweets}
+              tweets={this.state.tweets}
+            />
+          </div>
+          <div className="col-3">
+
+          </div>
+
+        </div>
+      </>
+
     );
   }
 }
