@@ -6,8 +6,3 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-@font-face {
-    font-family: 'DoHyeon';
-    font-weight: normal;
-    src: url("./fonts/DoHyeon-Regular.ttf");
-}
