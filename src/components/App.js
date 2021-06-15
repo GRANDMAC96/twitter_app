@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import AddTweetForm from "./AddTweetForm";
 import TweetDashboard from "./TweetDashboard";
+import NewsApi from "./NewsApi";
 import sample from "../sample";
 
 class App extends React.Component {
@@ -50,7 +51,7 @@ class App extends React.Component {
             />
           </div>
           <div className="col-3">
-
+            <NewsApi />
           </div>
 
         </div>
